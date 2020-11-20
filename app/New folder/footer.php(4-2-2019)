@@ -1,0 +1,173 @@
+<footer>
+	<div class="mainfooter">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-5">
+				<div class="row">
+					<div class="col-sm-6">
+						<ul class="list-unstyled footerlink1">
+							<h4 style="padding-top:42px;font-weight: bold;font-size: 18px;">CATEGORIES</h4>
+							<li><a href="">Graphics & Design</a></li>
+							<li><a href="">Digital Marketing</a></li>
+							<li><a href="">Writing & Translation</a></li>
+							<li><a href="">Video & Animation</a></li>
+							
+
+
+						</ul>
+					</div>
+					<div class="col-sm-6 footerlink">
+							<ul class="list-unstyled" style="padding-top:65px;">
+							<li><a href="">Music & Audio</a></li>
+							<li><a href="">Programming & Tech</a></li>
+							<li><a href="">Business</a></li>
+							<li><a href="">Fun & Lifestyle</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<ul class="list-unstyled">
+					<h4 style="padding-top:42px;font-weight: bold;font-size: 18px;">SERVICES</h4>
+				<li><a href="">Upload Project</a></li>
+				
+				<li ><a href="" style="color:#1b5ca0;font-weight: bold;">JOIN</a></li>
+				<li><a href="">Sign In</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-3">
+
+				<ul class="list-unstyled">
+					<h4 style="padding-top:42px;font-weight: bold;font-size: 18px;">ABOUT</h4>
+				
+				<li><a href="">Press & News</a></li>
+
+				<li><a href="">Privacy Policy</a></li>
+				<li><a href="">Terms of Service</a></li>
+			</ul>
+			</div>
+
+		</div>
+	</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<p>Copyrights &copy; 2019 <span style="color: #1b5ca0;font-weight: bold;">Freelancebit.</span> All rights reserved.</p>
+			</div>
+			<div class="col-sm-6 ftrLogo">
+				<img src="<?php echo base_url(); ?>assets/img/logo_footer.png" width="60" height="60" />
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+</div><!-- wrapper -->
+
+<script src="<?php echo base_url(); ?>assets/js/jquery.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.0/jquery.flexslider-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<script>
+     $('.flexslider').flexslider({
+	animation: "slide",
+	controlNav: false
+});
+</script>
+
+<script>
+ 
+ /* first carousel slidesshow */
+ $('#demo').carousel({
+      data-interval: 3000,
+	  data-ride="carousel"
+      pause: "hover",
+      wrap: true,
+     keyboard: true
+ });
+ 
+ /* second carousel slidesshow */
+ $('#demoportfolio').carousel({
+      data-interval: 3000,
+	  data-ride="carousel"
+      pause: "hover",
+      wrap: true,
+     keyboard: true
+ });
+ 
+ /* third carousel slidesshow */
+ $('#Recentdemo').carousel({
+      data-interval: 3000,
+	  data-ride="carousel"
+      pause: "hover",
+      wrap: true,
+     keyboard: true
+ });
+ 
+ /* four carousel slidesshow */
+ $('#Referenceslide').carousel({
+      data-interval: 3000,
+	  data-ride="carousel"
+      pause: "hover",
+      wrap: true,
+     keyboard: true
+ });
+ 
+ </script>
+
+
+<script>
+ 
+ /* first carousel slidesshow */
+ $('#RecentReviews').carousel({
+      data-interval: 3000,
+	  data-ride="carousel"
+      pause: "hover",
+      wrap: true,
+     keyboard: true
+ });
+ 
+ /* second carousel slidesshow */
+ $('#PositiveReviews').carousel({
+      data-interval: 3000,
+	  data-ride="carousel"
+      pause: "hover",
+      wrap: true,
+     keyboard: true
+ });
+ 
+  $('#NegativeReviews').carousel({
+      data-interval: 3000,
+	  data-ride="carousel"
+      pause: "hover",
+      wrap: true,
+     keyboard: true
+ });
+ 
+ 
+ 
+ </script>
+
+<script>
+$(function () {
+  $(".datepicker").datepicker({ 
+        autoclose: true, 
+        todayHighlight: true
+  }).datepicker('update', new Date());
+});
+</script>
+<script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+</script>
+
+
+
+</body>
+</html>
